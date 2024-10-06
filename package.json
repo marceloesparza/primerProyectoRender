@@ -1,0 +1,12 @@
+{
+  "name": "primerProyectoRender",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marceloesparza/primerProyectoRender.git",
+  "author": "marceloesparza <marceloesparza@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}
