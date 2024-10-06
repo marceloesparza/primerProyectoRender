@@ -5,9 +5,15 @@
   "repository": "https://github.com/marceloesparza/primerProyectoRender.git",
   "author": "marceloesparza <marceloesparza@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds"
+  },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
   }
 }
