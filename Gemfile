@@ -28,6 +28,7 @@ gem "jbuilder"
 # gem "bcrypt", "~> 3.1.7"
 #
 gem "bootstrap", "~> 5.0.0"
+gem "autoprefixer-rails"
 #gem "sassc-rails"
 gem "execjs"
 # gem "mini_racer"
