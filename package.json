@@ -6,7 +6,8 @@
   "author": "marceloesparza <marceloesparza@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds"
+    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds",
+    "build:css": "css-bundling-rails"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
