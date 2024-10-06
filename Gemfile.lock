@@ -79,8 +79,6 @@ GEM
     base64 (0.2.0)
     bigdecimal (3.1.8)
     bindex (0.8.1)
-    bootsnap (1.18.4)
-      msgpack (~> 1.2)
     bootstrap (5.0.2)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.9.2, < 3)
@@ -139,7 +137,6 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     minitest (5.25.1)
-    msgpack (1.7.3)
     net-imap (0.4.16)
       date
       net-protocol
@@ -298,7 +295,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bootsnap
   bootstrap (~> 5.0.0)
   brakeman
   capybara
@@ -311,7 +307,6 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 7.2.1)
   rubocop-rails-omakase
-  sassc-rails
   selenium-webdriver
   sprockets-rails
   stimulus-rails
