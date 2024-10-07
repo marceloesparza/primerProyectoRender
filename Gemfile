@@ -29,7 +29,7 @@ gem "jbuilder"
 #
 gem "bootstrap", "~> 5.0.0"
 gem "autoprefixer-rails"
-#gem "sassc-rails"
+gem "sassc-rails"
 gem "execjs"
 # gem "mini_racer"
 

@@ -1,5 +1,5 @@
 {
-  "name": "primerProyectoRender",
+  "name": "primer_proyecto_render",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/marceloesparza/primerProyectoRender.git",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds",
-    "build:css": "css-bundling-rails"
+    "build:css": "rails css:build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
