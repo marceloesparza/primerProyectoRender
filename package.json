@@ -6,7 +6,7 @@
   "author": "marceloesparza <marceloesparza@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds",
+    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds --alias:popper=@popperjs/core",
     "build:css": "rails css:build"
   },
   "dependencies": {

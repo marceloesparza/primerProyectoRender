@@ -1,2 +1,2 @@
-import "popper"
+import {createPopper} from "@popperjs/core"
 import "bootstrap"
